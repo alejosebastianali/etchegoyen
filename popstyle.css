@@ -13,10 +13,11 @@ body{
     position: fixed;
 }
 
-.cont-popup:hover{
+/*.cont-popup:hover{
     background-color:rgba(22, 29, 43, 0.7);
     transition: background-color 0.5s ease;
 }
+*/ 
 
 .cont-popup-remove{
 display: none

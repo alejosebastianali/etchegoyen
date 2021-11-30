@@ -11,7 +11,7 @@ document.getElementById("botonPopup").onclick = function(){
 
 //Para que desaparezca la animacion en un tiempo determinado
 setTimeout(function() {
-    $('#popupPromociones').fadeOut('fast');
-}, 5000); // <-- Tiempo en Milisegundos
+    $('#popupPromociones').fadeOut('slow');
+}, 4000); // <-- Tiempo en Milisegundos
 
 
