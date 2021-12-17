@@ -1,0 +1,120 @@
+.cont-cajafondo-01{
+    width: 100%;
+    height: auto;
+    background-color: $colorFondo01;
+}
+
+.cont-titulos{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+    h1{
+        font-family: $bajadas;
+        font-size: 30px ;
+        color: $colorTitulares;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 0px;
+        padding: 50px 0px 10px 0px;
+        box-sizing: border-box;
+    }
+}
+
+.cont-modulo-4-columnas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px 100px 100px;
+    box-sizing: border-box;
+
+        .modulo-4-a, .modulo-4-b, .modulo-4-c,.modulo-4-d{
+            width: 23%;
+            margin: 30px 1%;
+        }
+
+}
+
+.caja-4-columnas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-b;
+
+    .imagen{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .informacion{
+        padding: 20px;
+        box-sizing: border-box;
+        h1{
+            font-family: $titulares;
+            font-size: 24px ;
+            color: $colorTitulares;
+            font-weight: 900;
+            margin: 10px ;
+        }
+        p{
+            font-family: $bajadas;
+            font-size: 16px ;
+            color: $colorTitulares;
+            font-weight: normal;
+            margin: 10px ;
+        }
+    }
+
+    .cont-boton-info{
+        width: 100%;
+        height: 45px;
+        margin: 30px 0px;
+        text-align: center;
+        
+        .boton-info{
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 45px;
+            border-radius: 7px;
+            padding: 10px;
+            box-sizing: border-box;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, .3);
+    
+            h3{
+                font-family:$bajadas ;
+                font-size: 16px;
+                font-weight: normal;
+                margin: 3px 0px;
+                color:$colorTexoto01 ;
+            }
+        }
+    
+    }
+
+}
+
+@media screen and (max-width:1200px){
+
+    .cont-modulo-4-columnas{
+        flex-direction: column;
+        padding: 30px;
+
+        .modulo-4-a, .modulo-4-b, .modulo-4-c,.modulo-4-d{
+            width: 100%;
+            margin: 30px 0px;
+        }
+
+        .caja-4-columnas{
+            width: 100%;
+            height:auto;
+            align-items: none;
+
+        }
+
+    }
+}

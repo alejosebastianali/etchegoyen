@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: Rock-Regular;
+    src: url(..//fonts/ROCK.woff);
+}
+
+@font-face {
+    font-family: Rock-Bold;
+    src: url(..//fonts/ROCKB.woff);
+}
+
+//Fuentes Generales
+$bajadas: 'Rock-Regular', sans-serif;
+$titulares: 'Rock-Bold', sans-serif;
+$regular: 400;
+$medium: 500;
+$semibold: 700;
+$bold: 900;
+
+//Colores Generales
+$colorFondo01:#F3F2F2;
+$colorFondo02:#ffffff;
+$colorFondo03:#95C11F;
+$colorFondo04:#EAF3D2;
+$colorTitulares:#000000;
+$colorBoton01: #4060C0;
+$colorEtchegoyen:#0950A1;
+$colorTexoto01:#ffffff;
+
+//Colores Footer
+$textoFooter:#ffffff;
+
+.fondo-verde-claro{
+    background-color:$colorFondo04 ;
+}
+
+.fondo-verde{
+    background-color:$colorFondo03;
+}
+
+.fondo-blanco{
+    background-color:$colorFondo02 ;
+}
+
+.color-etchegoyen{
+    background-color: $colorEtchegoyen ;
+}
+
+// Compilado de archivos
+@import "../assets/_navbar";
+@import "../assets/_modulo_3_columnas";
+@import "../assets/_modulo_4_columnas";
+@import "../assets/_footer";
+
+
