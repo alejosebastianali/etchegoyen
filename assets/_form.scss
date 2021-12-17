@@ -1,0 +1,137 @@
+.cont-formulario{
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: $colorFondo06;
+
+    .cont-tit-form{
+        width: 1050px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+            .tit-form-a{
+                width: 40%;
+
+                h3{
+                    font-family: $bajadas;
+                    font-size:35px ;
+                    color:$colorTexoto01 ;
+                    font-weight: normal;
+                }
+            }
+
+            .tit-form-b{
+                width: 40%;
+
+                h4{
+                    font-family:$bajadas ;
+                    font-size: 14px;
+                    color:$colorTexoto01 ; 
+                    font-weight: normal;
+                    text-align: right;
+                }
+            }
+
+
+
+    }
+
+}
+
+form{
+    width: 1050px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+
+    input{
+        border: 0px;
+        margin: 10px 0px;
+        padding: 20px;
+        border-radius: 6px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+    }
+
+        input#nombre, #empresa, #email, #telefono{
+                width: 500px;
+            }
+
+        input#mensaje{
+            width: 1050px;
+        }
+
+        input#enviar{
+            width: 140px;
+            height: 60px ;
+            background-color: $colorBoton02;
+            border-radius:10px ;
+            border: 0px;
+            margin-right: 0px;
+            cursor: pointer;
+            color: #ffffff;
+
+                &:hover{
+                    background-color: $colorBoton01;
+                }
+
+                &:active{
+                    background-color: $colorEtchegoyen;
+                }
+
+        }
+
+}
+
+@media screen and (max-width:1200px){
+
+    .cont-formulario{
+        padding: 30px;
+
+        .cont-tit-form{
+            width: 100%;
+            flex-direction: column;
+    
+                .tit-form-a{
+                    width: 100%;
+                }
+    
+                .tit-form-b{
+                    width: 100%;
+                    h4{
+                        text-align: left;
+                    }
+                }
+        }
+    }
+
+    form{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+        label{
+            width: 100%;
+        }
+
+        input#nombre, #empresa, #email, #telefono{
+            width: 100%;
+        }
+
+        input#mensaje{
+            width: 100%;
+        }
+    }
+    
+}
