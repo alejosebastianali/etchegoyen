@@ -299,6 +299,25 @@ body {
   }
 }
 
+.cont-historia {
+  width: 100%;
+  height: 600px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 .cont-formulario {
   width: 100%;
   height: auto;
