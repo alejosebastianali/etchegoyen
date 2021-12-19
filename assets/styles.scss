@@ -29,6 +29,7 @@ $colorFondo04:#EAF3D2;
 $colorFondo05:#8C8984;
 $colorFondo06:#B0B0AD;
 $colorTitulares:#000000;
+$colorBajada01:#B0B0AD;
 $colorBoton01: #4060C0;
 $colorBoton02: #0191C8;
 $colorEtchegoyen:#0950A1;
@@ -56,8 +57,8 @@ $textoFooter:#ffffff;
 // Compilado de archivos
 @import "../assets/_navbar";
 @import "../assets/_modulo_3_columnas";
-@import "../assets/_modulo_4_columnas";
 @import "..//assets/slider_historia";
+@import "../assets/_modulo_4_columnas";
 @import "../assets/_form";
 @import "../assets/_footer";
 
