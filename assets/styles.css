@@ -71,6 +71,7 @@ section#carousel .cont-data-car .data-car .data-a h2 {
   font-weight: normal;
   text-transform: uppercase;
   margin: 20px 0px;
+  opacity: .7;
 }
 
 section#carousel .cont-data-car .data-car .data-b h1 {
@@ -78,6 +79,74 @@ section#carousel .cont-data-car .data-car .data-b h1 {
   font-size: 70px;
   color: #ffffff;
   font-weight: 200;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info {
+  width: 200px;
+  margin-top: 30px;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info .info-a {
+  width: 50%;
+  background-color: #0950A1;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info .info-a a {
+  text-decoration: none;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info .info-a h1 {
+  font-family: "Rock-Regular", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info .info-b {
+  width: 50%;
+  text-align: center;
+  background-color: #4060C0;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info .info-b img {
+  width: 14px;
+  margin-top: 5px;
+  height: auto;
+}
+
+section#carousel .cont-data-car .data-car .data-c .cont-info .info :hover {
+  background-color: #074388;
+}
+
+@media screen and (max-width: 1200px) {
+  section#carousel .cont-data-car .data-car .data-a h2 {
+    font-size: 20px;
+  }
+  section#carousel .cont-data-car .data-car .data-b h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section#carousel .cont-data-car .data-car .data-a h2 {
+    font-size: 14px;
+  }
+  section#carousel .cont-data-car .data-car .data-b h1 {
+    font-size: 25px;
+  }
 }
 
 .cont-cajafondo-01 {
