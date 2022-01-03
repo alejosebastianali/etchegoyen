@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    background-color: $colorEtchegoyen;
+    border-top: 5px solid $colorOverEtchegoyen;
+    box-shadow: 0px 13px 17px 4px rgba(0,0,0,0.5);
+
+    nav#etchegoyen{
+        width: 100%;
+        z-index: 10;
+        background-color: $colorEtchegoyen;
+        padding: 0px 30px;
+        box-sizing: border-box;
+
+            a{
+                color: none;
+            }
+
+            ul#menu{
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                list-style-type: none;
+                margin-block-start: 0px;
+                margin-block-end: 0px;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 0px;
+
+                    h1{
+                        font-family: 'Roboto', sans-serif;
+                        font-size:14px ;
+                        color:#ffffff ;
+                        font-weight: 400;
+                    }
+            
+                    a{
+                        display: block;
+                        padding: 16px;
+                        text-decoration: none;
+                    }
+
+                    :hover{
+                        background-color: $colorOverEtchegoyen;
+                    }
+
+            }
+
+            ul#menu li:hover > ul#submenu {
+                //Aca indico que al hacr hover sobre el menu principal el estado del submenu es visible
+                display:block;
+                position: relative;
+            }
+
+            ul#submenu{
+                display: none;
+                float: none;
+                list-style-type: none;
+                padding: 20px;
+                border-top: solid #ffffff 1px;
+
+                li{
+                    //El Float none es para que aparezcan uno debajo del otro los submenues
+                    float: none;
+                    
+                        h2{
+                            font-family: 'Roboto', sans-serif;
+                            font-size:12px ;
+                            color:#ffffff ;
+                            font-weight: 300;
+                            padding: 5px 0px;
+                        }
+
+                        a{
+                            padding: 0px;
+
+                            :hover{
+                                opacity: .8;
+                                text-decoration: underline;
+                            }
+
+                        }
+
+
+                }
+            }
+
+            .logo{
+                float: left;
+                display: block;
+                padding: 10px;
+                width: 120px;
+                height: auto;
+            }
+
+            .menu{
+                clear: both;
+                max-height: 0;
+                transition: max-height .2s ease-out;
+            }
+
+            .menu-icono{
+                padding: 21px 16px;
+                position: relative;
+                float: right;
+                cursor: pointer;
+                
+                .nav-icono{
+                    background-color: #ffffff;
+                    display: block;
+                    height: 2px;
+                    width: 18px;
+                    position: relative;
+                    transition: background .2s ease-out;
+                }
+
+                :before{
+                    background-color: #ffffff;
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 5px;
+                    transition: all .2s ease-out;
+                }
+
+                :after{
+                    background-color: #ffffff;
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: -5px;
+                    transition: all .2s ease-out;
+                }
+
+            }
+
+            .menu-boton{
+                display: none;
+            }
+
+            .menu-boton:checked  ~ .menu{
+                max-height: 100vh;
+            }
+
+            .menu-boton:checked  ~ .menu-icono .nav-icono:after{
+                transform: rotate(45deg);
+                top: 0;
+            }
+
+            .menu-boton:checked  ~ .menu-icono .nav-icono{
+                 background-color: transparent;      
+            }
+
+            .menu-boton:checked  ~ .menu-icono .nav-icono:before{
+                transform: rotate(-45deg);
+                top: 0;
+            }
+
+    }
+
+}
+
+
+
+@media screen and (min-width:1000px){
+
+    header{
+
+        nav#etchegoyen{
+            padding: 0px 50px;
+
+
+            ul#menu{
+
+                li{
+                float: left;
+                }
+
+                a{
+                padding: 15px;
+                }
+
+            }
+
+            
+            ul#submenu{
+
+                li{
+                float: none;
+                }
+
+            }
+
+            .menu{
+            clear: none;
+            float: right;
+            max-height: none;
+            }
+
+            .menu-icono{
+            display: none;   
+            }
+
+        }
+        
+    }
+
+
+}
