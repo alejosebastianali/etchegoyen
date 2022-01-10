@@ -33,7 +33,10 @@ $colorBajada01:#B0B0AD;
 $colorBoton01: #4060C0;
 $colorBoton02: #0191C8;
 $colorEtchegoyen:#0950A1;
+$colorOverEtchegoyen:#074388;
 $colorTexoto01:#ffffff;
+$colorTexoto02:#eeecec;
+
 
 //Colores Footer
 $textoFooter:#ffffff;
@@ -55,11 +58,12 @@ $textoFooter:#ffffff;
 }
 
 // Compilado de archivos
-@import "../assets/_navbar";
-@import "../assets/_modulo_3_columnas";
-@import "..//assets/slider_historia";
-@import "../assets/_modulo_4_columnas";
-@import "../assets/_form";
-@import "../assets/_footer";
+@import "..//assets/_navbar";
+@import "..//assets/_carrusel_intro";
+@import "..//assets/_modulo_3_columnas";
+@import "..//assets/_slider_historia";
+@import "..//assets/_modulo_4_columnas";
+@import "..//assets/_form";
+@import "..//assets/_footer";
 
 
