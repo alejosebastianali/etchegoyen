@@ -36,7 +36,7 @@ $colorEtchegoyen:#0950A1;
 $colorOverEtchegoyen:#074388;
 $colorTexoto01:#ffffff;
 $colorTexoto02:#eeecec;
-
+$colorTexoto03:#4D4D4D;
 
 //Colores Footer
 $textoFooter:#ffffff;
@@ -60,6 +60,7 @@ $textoFooter:#ffffff;
 // Compilado de archivos
 @import "..//assets/_navbar";
 @import "..//assets/_carrusel_intro";
+@import "..//assets/_secciones";
 @import "..//assets/_modulo_3_columnas";
 @import "..//assets/_slider_historia";
 @import "..//assets/_modulo_4_columnas";
