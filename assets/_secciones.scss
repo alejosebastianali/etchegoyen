@@ -1,4 +1,4 @@
-section#secciones{
+section#certificados{
     
     .cont-img-sec{
         width: 100%;
@@ -103,24 +103,155 @@ section#secciones{
                 box-sizing: border-box;
                 background-color: #ffffff;
                 border: 1px solid #DADADA;
-                z-index: 100;
+
+                    :hover{
+                        opacity: .5;
+                        transition:  0.5s ease-out;
+                    }
             }
     }
 
-    .shape-cert{
+}
+
+section#empresa{
+    
+    .cont-img-sec{
+        width: 100%;
+        height: 400px;
+        background-image:url(..//img/sec_empresa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        .cont-text-img-sec{
+            width: 100%;
+            height: 100%;
+            padding: 100px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(1, 1, 1, 1.0));
+    
+                h2{
+                    font-family: $bajadas;
+                    font-size: 20px;
+                    letter-spacing: 3px;
+                    color: $colorTexoto02;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    text-align: right;
+                    margin: 20px 0px;
+                    opacity: .7;
+                }
+    
+                h1{
+                    font-family: $bajadas;
+                    font-size: 40px;
+                    color: $colorTexoto01;
+                    font-weight: 200 ;
+                    text-align: right;
+                }
+        }
+    
+    }
+
+    .cont-info-sec{
+        width: 100%;
+        height: auto;
+
+            .info-sec{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 50px 100px;
+                box-sizing: border-box;
+
+                    h1{
+                        font-family: $bajadas;
+                        font-size: 40px;
+                        letter-spacing: 3px;
+                        color: $colorTexoto03;
+                        font-weight: normal;
+                        text-align: left;
+                        margin: 5px 0px;
+                    }
+
+                    h2{
+                        font-family: $bajadas;
+                        font-size: 25px;
+                        letter-spacing: 3px;
+                        color: $colorTexoto03;
+                        font-weight: normal;
+                        text-align: left;
+                        margin: 5px 0px;
+                    }
+
+                    p{
+                        font-family: $bajadas;
+                        font-size: 16px;
+                        color: $colorTexoto03;
+                        font-weight: normal;
+                        text-align: left;
+                        margin: 5px 0px;
+                    }
+            }
+
+            .cont-data-sec{
+                width: 100%;
+                height: auto;
+                padding: 30px 100px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: row;
+
+                    .data-sec-01{
+                        width: 50%;
+
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                    }
+
+                    .data-sec-02{
+                        width: 50%;
+                    }
+
+                    .padding-izq{
+                        padding: 0px 0px 0px 20px;
+                    }
+
+                    .padding-der{
+                        padding: 0px 20px 0px 0px;
+                    }
+
+                    p{
+                        font-family:$bajadas;
+                        font-size: 14px;
+                        color:$colorTexoto03 ;
+                        font-weight: normal;
+                    }
+            }
+
+            .base-color-01{
+                background-color: #F3F2F2;
+            }
+    }
+
+    .shape-diagonal-01{
         clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 70%);
         shape-outside: polygon(0% 0%, 100% 100%, 0% 100%, 0% 0%);
-        background-color: #D4D2D3;
+        background-color: #F3F2F2;
         position: relative;
         box-sizing: border-box;
         padding: 100px;
-      }
+    }
       
-      [class*='shape'] {
+    [class*='shape'] {
           width: 100%;
           height: 100%;
           object-fit: cover;
-      }
+    }
 
 }
 
