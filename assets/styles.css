@@ -485,10 +485,67 @@ section#certificados .cont-certificados .certificados :hover {
   transition: 0.5s ease-out;
 }
 
+@media screen and (max-width: 768px) {
+  section#certificados .cont-img-sec {
+    background-image: url(..//img/sec-certificaciones-mobile.jpg);
+  }
+  section#certificados .cont-img-sec .cont-text-img-sec {
+    padding: 30px;
+  }
+  section#certificados .cont-img-sec .cont-text-img-sec h2 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 20px 0px;
+  }
+  section#certificados .cont-img-sec .cont-text-img-sec h1 {
+    font-family: "Rock-Regular", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: left;
+  }
+  section#certificados .cont-info-sec {
+    padding: 30px;
+  }
+  section#certificados .cont-info-sec .info-sec h1 {
+    font-size: 30px;
+    margin: 15px 0px;
+  }
+  section#certificados .cont-info-sec .info-sec h2 {
+    font-size: 18px;
+    margin: 15px 0px;
+  }
+  section#certificados .cont-info-sec .info-sec p {
+    font-size: 14px;
+    margin: 15px 0px;
+  }
+  section#certificados .cont-certificados {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    background-image: url(..//img/shape_01_izq.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  section#certificados .cont-certificados .certificados {
+    margin: 10px auto;
+  }
+}
+
 section#empresa .cont-img-sec {
   width: 100%;
   height: 400px;
-  background-image: url(..//img/sec_empresa.jpg);
+  background-image: url(..//img/sec-empresa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -584,7 +641,7 @@ section#empresa .cont-info-sec .info-sec p {
 section#empresa .cont-info-sec .cont-data-sec {
   width: 100%;
   height: auto;
-  padding: 30px 100px;
+  padding: 50px 100px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -619,7 +676,7 @@ section#empresa .cont-info-sec .cont-data-sec .padding-der {
 
 section#empresa .cont-info-sec .cont-data-sec p {
   font-family: "Rock-Regular", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #4D4D4D;
   font-weight: normal;
 }
@@ -644,6 +701,78 @@ section#empresa [class*='shape'] {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  section#empresa .cont-img-sec {
+    background-image: url(..//img/sec-empresa-mobile.jpg);
+  }
+  section#empresa .cont-img-sec .cont-text-img-sec {
+    padding: 30px;
+  }
+  section#empresa .cont-img-sec .cont-text-img-sec h2 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 20px 0px;
+  }
+  section#empresa .cont-img-sec .cont-text-img-sec h1 {
+    font-family: "Rock-Regular", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: left;
+  }
+  section#empresa .cont-info-sec .info-sec {
+    padding: 0px 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#empresa .cont-info-sec .info-sec h1 {
+    font-size: 30px;
+    margin: 15px 0px;
+  }
+  section#empresa .cont-info-sec .info-sec h2 {
+    font-size: 18px;
+    margin: 15px 0px;
+  }
+  section#empresa .cont-info-sec .info-sec p {
+    font-size: 16px;
+    margin: 15px 0px;
+  }
+  section#empresa .cont-info-sec .cont-data-sec {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#empresa .cont-info-sec .cont-data-sec .data-sec-01 {
+    width: 100%;
+  }
+  section#empresa .cont-info-sec .cont-data-sec .data-sec-01 img {
+    width: 100%;
+    height: auto;
+  }
+  section#empresa .cont-info-sec .cont-data-sec .data-sec-02 {
+    width: 100%;
+  }
+  section#empresa .cont-info-sec .cont-data-sec .padding-izq {
+    padding: 0px 0px 0px 0px;
+  }
+  section#empresa .cont-info-sec .cont-data-sec .padding-der {
+    padding: 0px 0px 0px 0px;
+  }
+  section#empresa .cont-info-sec .cont-data-sec p {
+    font-family: "Rock-Regular", sans-serif;
+    font-size: 16px;
+    color: #4D4D4D;
+    font-weight: normal;
+    margin: 15px 0px;
+  }
+  section#empresa .shape-diagonal-01 {
+    padding: 30px;
+  }
 }
 
 .cont-cajafondo-01 {
