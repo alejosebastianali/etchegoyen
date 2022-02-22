@@ -1,0 +1,256 @@
+section#servicios{
+
+    .cont-img-full{
+        width: 100%;
+        height: 100vh;
+
+            .cont-flama{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background: linear-gradient(90deg, rgba(1,52,64,1) 40%, rgba(255,255,255,0) 100%);
+
+
+                    .flama-a{
+                        width: 50%;
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        background-image: url(..//img/fondo_flama.svg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        justify-content: center;
+
+                        .textos-flama{
+                            width: 300px;
+                            height: 300px;
+                            position: relative;
+                            padding-top: 60px;
+                            margin-left: 100px;
+
+                            h1{
+                                font-family: $bajadas;
+                                font-size: 20px;
+                                letter-spacing: 3px;
+                                color: $colorTexoto02;
+                                font-weight: normal;
+                                text-transform: uppercase;
+                                text-align: left;
+                                margin:0px;
+                                opacity: .7;
+                            }
+                
+                            h2{
+                                font-family: $bajadas;
+                                font-size: 40px;
+                                color: $colorTexoto01;
+                                font-weight: 200 ;
+                                text-align: left;
+                                letter-spacing: 3px;
+                                margin: 5px 0px;
+                                text-transform: uppercase;
+                            }
+
+                            p{
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 18px;
+                                line-height: 20px;
+                                color: $colorTexoto01;
+                                font-weight: normal;
+                                text-align: left;
+                                margin: 5px 0px;
+                            }
+                        
+                            .linea-ser{
+                                width: 50px;
+                                height: 10px;
+                                border-bottom: 3px solid #ffffff;
+                            }
+
+                        }
+
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+
+                    }
+
+                    .flama-b{
+                        width: 50%;
+                    }
+            }
+    }
+
+    .img-ingenieria{
+        background-image: url(..//img/servicios-ingenieria.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-montaje{
+        background-image: url(..//img/servicios-montaje.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-asistencia{
+        background-image: url(..//img/servicios-asistencia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-aplicaciones{
+        background-image: url(..//img/servicios-aplicaciones.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-proyectos{
+        background-image: url(..//img/servicios-proyectos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-fx{
+        background-image: url(..//img/servicios-fx.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .cont-data-ser{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+        .data-ser-a{
+            width: 50%;
+            height: auto;
+            background-color: $colorFondo05;
+            padding: 100px;
+            box-sizing: border-box;
+
+            h1{
+                font-family: $bajadas;
+                font-size: 30px;
+                letter-spacing: 3px;
+                color: $colorTexoto02;
+                font-weight: normal;
+                text-align: left;
+                margin:0px;
+            }
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                line-height: 18px;
+                color: $colorTexoto01;
+                font-weight: normal;
+                text-align: left;
+                margin: 15px 0px;
+            }
+
+        }
+
+        .data-ser-b{
+            width: 50%;
+            height: auto;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width:1000px){
+
+    section#servicios{
+
+        .cont-img-full{
+
+            .cont-flama{
+                flex-direction: column;
+
+                .flama-a{
+                    width: 100%;
+                    background-image: url(..//img/fondo_flama_mobile.svg);
+
+                    .textos-flama{
+                        width: 100%;
+                        padding: 30px;
+                        margin: 0px;
+
+                            h1{
+                                font-size: 18px;
+                            }
+
+                            h2{
+                                font-size: 30px;
+                            }
+
+                            p{
+                                font-size: 16px ;
+                            }
+
+                    }
+                }
+
+                .flama-b{
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .img-ingenieria{
+            background-image: url(..//img/servicios-ingenieria-mobile.jpg);
+        }
+    
+        .img-montaje{
+            background-image: url(..//img/servicios-montaje-mobile.jpg);
+        }
+    
+        .img-asistencia{
+            background-image: url(..//img/servicios-asistencia-mobile.jpg);
+        }
+    
+        .img-aplicaciones{
+            background-image: url(..//img/servicios-aplicaciones-mobile.jpg);
+        }
+    
+        .img-proyectos{
+            background-image: url(..//img/servicios-proyectos-mobile.jpg);
+        }
+    
+        .img-fx{
+            background-image: url(..//img/servicios-fx-mobile.jpg);
+        }
+
+        .cont-data-ser{
+            flex-direction: column;
+
+            .data-ser-a{
+                width: 100%;
+                padding: 50px 30px;
+                order: 1;
+            }
+
+            .data-ser-b{
+                width: 100%;
+                padding: 0px;
+                order: 2;
+
+            }
+        }
+    }
+
+}
