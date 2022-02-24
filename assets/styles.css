@@ -1572,7 +1572,7 @@ section#historia .slick-vertical .slick-slide {
 
 .caja-4-columnas {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1580,9 +1580,9 @@ section#historia .slick-vertical .slick-slide {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-b;
-      -ms-flex-pack: space-b;
-          justify-content: space-b;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .caja-4-columnas .imagen img {
