@@ -3,7 +3,7 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 240" style="enable-background:new 0 0 100 240;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#2E4B93;}
+	.st0{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#2E4B93;}
 </style>
-<path class="st0" d="M0,211.2C48.62,143.16,57.23,69.3,100,0L0,0V211.2z"/>
+<path class="st0" d="M0,211.2C48.62,143.16,57.23,69.3,100,0H0V211.2z"/>
 </svg>

@@ -3,9 +3,10 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 140" style="enable-background:new 0 0 100 140;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#2E4B93;}
+	.st0{opacity:0.5;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#2E4B93;}
 </style>
-<g>
-	<path class="st0" d="M0,0l0,140c0,0,32.66-10.16,48.03-30.81C74.1,74.14,78.05,35.86,100,0L0,0z"/>
+<g class="st0">
+	<path class="st1" d="M0,0v140c0,0,32.66-10.16,48.03-30.81C74.1,74.14,78.05,35.86,100,0H0z"/>
 </g>
 </svg>
