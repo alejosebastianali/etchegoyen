@@ -793,8 +793,8 @@ section#servicios .cont-img-full .cont-flama {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, black), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(90deg, black 30%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, black), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, black 15%, rgba(255, 255, 255, 0) 100%);
 }
 
 section#servicios .cont-img-full .cont-flama .flama-a {
