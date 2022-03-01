@@ -14,6 +14,16 @@ body {
   src: url(..//fonts/ROCKB.woff);
 }
 
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(..//fonts/Roboto-Regular.woff);
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(..//fonts/Roboto-Bold.woff);
+}
+
 .fondo-verde-claro {
   background-color: #EAF3D2;
 }
@@ -28,6 +38,12 @@ body {
 
 .color-etchegoyen {
   background-color: #0950A1;
+}
+
+.visible {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
 
 header {
@@ -72,7 +88,7 @@ header nav#etchegoyen ul#menu {
 }
 
 header nav#etchegoyen ul#menu h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto-Regular", sans-serif, sans-serif;
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
@@ -437,7 +453,7 @@ section#certificados .cont-info-sec .info-sec h2 {
 }
 
 section#certificados .cont-info-sec .info-sec p {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   color: #4D4D4D;
   font-weight: normal;
@@ -458,9 +474,9 @@ section#certificados .cont-certificados {
   padding: 50px 100px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-image: url(..//img/shape_01_izq.svg);
@@ -630,7 +646,7 @@ section#empresa .cont-info-sec .info-sec h2 {
 }
 
 section#empresa .cont-info-sec .info-sec p {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   color: #4D4D4D;
   font-weight: normal;
@@ -675,7 +691,7 @@ section#empresa .cont-info-sec .cont-data-sec .padding-der {
 }
 
 section#empresa .cont-info-sec .cont-data-sec p {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   color: #4D4D4D;
   font-weight: normal;
@@ -764,7 +780,7 @@ section#empresa [class*='shape'] {
     padding: 0px 0px 0px 0px;
   }
   section#empresa .cont-info-sec .cont-data-sec p {
-    font-family: "Rock-Regular", sans-serif;
+    font-family: "Roboto-Regular", sans-serif;
     font-size: 16px;
     color: #4D4D4D;
     font-weight: normal;
@@ -847,7 +863,7 @@ section#servicios .cont-img-full .cont-flama .flama-a .textos-flama h2 {
 }
 
 section#servicios .cont-img-full .cont-flama .flama-a .textos-flama p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #ffffff;
@@ -939,7 +955,7 @@ section#servicios .cont-data-ser .data-ser-a h1 {
 }
 
 section#servicios .cont-data-ser .data-ser-a p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -1106,7 +1122,7 @@ section#servicios .cont-data-ser .data-ser-b img {
 }
 
 .caja-3-columnas .informacion p {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   color: #000000;
   font-weight: normal;
@@ -1118,6 +1134,11 @@ section#servicios .cont-data-ser .data-ser-b img {
   height: 55px;
   margin: 30px 0px;
   text-align: center;
+}
+
+.caja-3-columnas .cont-boton-info :hover {
+  background-color: #074388;
+  cursor: pointer;
 }
 
 .caja-3-columnas .cont-boton-info .boton-info {
@@ -1134,7 +1155,7 @@ section#servicios .cont-data-ser .data-ser-b img {
 }
 
 .caja-3-columnas .cont-boton-info .boton-info h3 {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin: 7px 0px;
@@ -1211,7 +1232,7 @@ section#historia .cont-slider .titulos-historia h1 {
 }
 
 section#historia .cont-slider .titulos-historia p {
-  font-family: Rock-Regular;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 15px;
   color: #B0B0AD;
   margin: 10px 0px;
@@ -1258,7 +1279,7 @@ section#historia .cont-poster h1 {
 }
 
 section#historia .cont-poster h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 16px;
   color: #B0B0AD;
   margin: 8px 0px;
@@ -1267,7 +1288,7 @@ section#historia .cont-poster h2 {
 }
 
 section#historia .cont-poster p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 14px;
   color: #B0B0AD;
   margin: 0px;
@@ -1605,7 +1626,7 @@ section#historia .slick-vertical .slick-slide {
 }
 
 .caja-4-columnas .informacion p {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   color: #000000;
   font-weight: normal;
@@ -1619,12 +1640,17 @@ section#historia .slick-vertical .slick-slide {
   text-align: center;
 }
 
+.caja-4-columnas .cont-boton-info :hover {
+  background-color: #074388;
+  cursor: pointer;
+}
+
 .caja-4-columnas .cont-boton-info .boton-info {
   width: 100px;
   margin-left: auto;
   margin-right: auto;
   height: 45px;
-  border-radius: 7px;
+  border-radius: 23px;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1633,7 +1659,7 @@ section#historia .slick-vertical .slick-slide {
 }
 
 .caja-4-columnas .cont-boton-info .boton-info h3 {
-  font-family: "Rock-Regular", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin: 3px 0px;
@@ -1839,8 +1865,8 @@ footer .cont-footer h1 {
 }
 
 footer .cont-footer h2 {
-  font-family: "Rock-Regular", sans-serif;
-  font-size: 14px;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 15px;
   color: #ffffff;
   font-weight: normal;
   margin: 0px;

@@ -13,9 +13,22 @@ body{
     src: url(..//fonts/ROCKB.woff);
 }
 
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(..//fonts/Roboto-Regular.woff);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(..//fonts/Roboto-Bold.woff);
+}
+
 //Fuentes Generales
 $bajadas: 'Rock-Regular', sans-serif;
 $titulares: 'Rock-Bold', sans-serif;
+$textosTitular:'Roboto-Bold', sans-serif;
+$textosParrafo:'Roboto-Regular', sans-serif;
+
 $regular: 400;
 $medium: 500;
 $semibold: 700;
@@ -55,6 +68,11 @@ $textoFooter:#ffffff;
 
 .color-etchegoyen{
     background-color: $colorEtchegoyen ;
+}
+
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 // Compilado de archivos

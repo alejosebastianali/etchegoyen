@@ -1,47 +1,35 @@
-function scrollTrigger(selector, options = {}){
-    let els = document.querySelectorAll(selector)
-    els = Array.from(els)
-    els.forEach(el => {
-        addObserver(el, options)
-    })
-}
 
-function addObserver(el, options){
-    if(!('IntersectionObserver' in window)){
-        if(options.cb){
-            options.cb(el)
-        }else{
-            entry.target.classList.add('active')
+//Fade Izquierdo
+window.addEventListener('scroll', function()  {
+    let elements = document.getElementsByClassName('fadeInLeft');
+    let screenSize = window.innerHeight;
+    
+          for(var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+  
+          if(element.getBoundingClientRect().top < screenSize) {
+            element.classList.add('animate__animated', 'animate__fadeInLeft');
+          } else {
+            element.classList.remove('animate__animated', 'animate__fadeInLeft');
+          }
+  
         }
-        return
-    }
-    let observer = new IntersectionObserver((entries, observer) => { //this takes a callback function which receives two arguments: the elemts list and the observer instance
-        entries.forEach(entry => {
-            if(entry.isIntersecting){
-                if(options.cb){
-                    options.cb(el)
-                }else{
-                    entry.target.classList.add('active')
-                }
-                observer.unobserve(entry.target)
-            }
-        })
-    }, options)
-    observer.observe(el)
-}
-// Example usages:
-scrollTrigger('.intro-text')
+  });
 
-scrollTrigger('.scroll-reveal', {
-    rootMargin: '-200px',
-})
 
-scrollTrigger('.loader', {
-    rootMargin: '-200px',
-    cb: function(el){
-        el.innerText = 'Loading...'
-        setTimeout(() => {
-            el.innerText = 'Task Complete!'
-        }, 1000)
-    }
-})
+  //Fade Derecho
+  window.addEventListener('scroll', function()  {
+    let elements = document.getElementsByClassName('fadeInRight');
+    let screenSize = window.innerHeight;
+    
+          for(var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+  
+          if(element.getBoundingClientRect().top < screenSize) {
+            element.classList.add('animate__animated', 'animate__fadeInRight');
+          } else {
+            element.classList.remove('animate__animated', 'animate__fadeInRight');
+          }
+  
+        }
+  });
