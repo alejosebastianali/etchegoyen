@@ -1,0 +1,141 @@
+.cont-card{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    background-color: $colorFondo08;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+        .elementos-card{
+            width: 250px;
+            height:400px;
+            margin: 20px;
+            background-color:#fff;
+            border-radius: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, .2);
+
+            .diagonal-blanca{
+                width: 250px;
+                height: 70px;
+                background-image: url(..//img/diagonal_blanca.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                margin-bottom: 200px;
+            }
+
+            .img-fondo{
+                width: 250px;
+                height: 300px;
+                padding: 0px;
+                border-radius: 10px 10px 0px 0px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+
+            .cat-quemador{
+                background-image: url(..//img/cat-quemador-01.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .info-card{
+                padding: 0px 20px 20px 20px;
+                box-sizing: border-box;
+                margin-top: -85px;
+                z-index: 00;
+
+            
+                .logo{
+                    width: 80px;
+                    height: 80px;
+                    margin: 10px auto;
+                    background-color: #fff;
+                    border-radius: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    box-sizing: border-box;
+    
+                    .quemador{
+                        background-image: url(..//img/logo_quemador.svg);
+                        width:70px ;
+                        height: 70px;
+                        margin: auto;
+                        background-repeat: no-repeat;
+                        justify-content: center;
+                        align-content: center;
+                        align-items: center;
+                    }
+    
+                }
+    
+                .titulo-producto{
+                    width: 100%;
+                    height: 30px;
+    
+                    h1{
+                        font-family:$textosTitular ;
+                        font-size: 18px;
+                        color: $colorTexoto03;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+    
+                .desc-producto{
+                    width: 100%;
+                    height: 100px;
+                    
+                    p{
+                        font-family:$textosParrafo ;
+                        font-size: 16px;
+                        color: $colorTexoto03;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+    
+    
+                .boton-producto{
+                    width: 150px;
+                    height: 35px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color:$colorFondo09;
+                    border-radius: 20px;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: center;
+    
+                    &:hover{
+                        background-color:$colorFondo10;
+                        cursor: pointer;
+                    }
+    
+                    h4{
+                        font-family:$textosTitular ;
+                        font-size: 14px;
+                        color: #ffffff;
+                        text-align: center;
+                        margin: 3px 0px 0px 0px;
+                    }
+    
+                    .descargar-producto::before{
+                        content: "DESCARGAR";
+                    }
+                }
+            }
+
+        }
+
+}

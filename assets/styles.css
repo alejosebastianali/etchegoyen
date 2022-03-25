@@ -1043,6 +1043,408 @@ section#servicios .cont-data-ser .data-ser-b img {
   }
 }
 
+section#productos .detalle-productos {
+  width: 100%;
+  height: auto;
+  padding: 100px 100px 20px 100px;
+  background-color: #E3E3E3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section#productos .detalle-productos h4 {
+  font-family: "Rock-Regular", sans-serif;
+  font-size: 30px;
+  color: #4D4D4D;
+  text-align: left;
+  margin: 0px;
+}
+
+section#productos .linea {
+  width: 50px;
+  height: 10px;
+  border-bottom: 3px solid #676767;
+}
+
+section#productos .cont-titulo-productos {
+  width: 100%;
+  height: 400px;
+  padding: 60px 100px 0px 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section#productos .cont-titulo-productos .titulo-productos {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section#productos .cont-titulo-productos .titulo-productos .productos-a {
+  width: 90px;
+  height: 90px;
+}
+
+section#productos .cont-titulo-productos .titulo-productos .productos-b {
+  padding-left: 30px;
+}
+
+section#productos .cont-titulo-productos .titulo-productos .productos-b h1 {
+  font-family: "Rock-Regular", sans-serif;
+  font-size: 30px;
+  color: #676767;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+}
+
+section#productos .cont-titulo-productos .titulo-productos .productos-b h2 {
+  font-family: "Rock-Regular", sans-serif;
+  font-size: 45px;
+  color: #0950A1;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+}
+
+section#productos .cont-info-productos {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section#productos .cont-info-productos .info-productos-a {
+  width: 50%;
+  height: auto;
+  padding: 100px;
+  background-color: #0950A1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section#productos .cont-info-productos .info-productos-a h1 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: lighter;
+  margin: 30px 0px;
+}
+
+section#productos .cont-info-productos .info-productos-a h2 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section#productos .cont-info-productos .info-productos-a p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+section#productos .cont-info-productos .info-productos-b {
+  width: 50%;
+  height: auto;
+  padding: 0px;
+  background-color: #676767;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+section#productos .cont-info-productos .info-productos-b img {
+  width: 200px;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  section#productos .detalle-productos {
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#productos .detalle-productos h4 {
+    font-size: 30px;
+  }
+  section#productos .cont-titulo-productos {
+    height: 200px;
+    padding: 60px 20px 0px 20px;
+  }
+  section#productos .cont-titulo-productos .titulo-productos .productos-a {
+    width: 60px;
+    height: 60px;
+  }
+  section#productos .cont-titulo-productos .titulo-productos .productos-b {
+    padding-left: 10px;
+  }
+  section#productos .cont-titulo-productos .titulo-productos .productos-b h1 {
+    font-size: 30px;
+  }
+  section#productos .cont-titulo-productos .titulo-productos .productos-b h2 {
+    font-size: 35px;
+  }
+  section#productos .cont-info-productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#productos .cont-info-productos .info-productos-a {
+    width: 100%;
+    padding: 20px;
+  }
+  section#productos .cont-info-productos .info-productos-a h1 {
+    font-size: 18px;
+  }
+  section#productos .cont-info-productos .info-productos-a h2 {
+    font-size: 18px;
+  }
+  section#productos .cont-info-productos .info-productos-a p {
+    font-size: 16px;
+  }
+  section#productos .cont-info-productos .info-productos-b {
+    width: 100%;
+    padding: 20px;
+  }
+  section#productos .cont-info-productos .info-productos-b img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.cont-card {
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #E3E3E3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cont-card .elementos-card {
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cont-card .elementos-card .diagonal-blanca {
+  width: 250px;
+  height: 70px;
+  background-image: url(..//img/diagonal_blanca.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-bottom: 200px;
+}
+
+.cont-card .elementos-card .img-fondo {
+  width: 250px;
+  height: 300px;
+  padding: 0px;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.cont-card .elementos-card .cat-quemador {
+  background-image: url(..//img/cat-quemador-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont-card .elementos-card .info-card {
+  padding: 0px 20px 20px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: -85px;
+  z-index: 00;
+}
+
+.cont-card .elementos-card .info-card .logo {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cont-card .elementos-card .info-card .logo .quemador {
+  background-image: url(..//img/logo_quemador.svg);
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-card .elementos-card .info-card .titulo-producto {
+  width: 100%;
+  height: 30px;
+}
+
+.cont-card .elementos-card .info-card .titulo-producto h1 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  color: #4D4D4D;
+  text-align: center;
+  margin: 0px;
+}
+
+.cont-card .elementos-card .info-card .desc-producto {
+  width: 100%;
+  height: 100px;
+}
+
+.cont-card .elementos-card .info-card .desc-producto p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  color: #4D4D4D;
+  text-align: center;
+  margin: 0px;
+}
+
+.cont-card .elementos-card .info-card .boton-producto {
+  width: 150px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #34CD9E;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cont-card .elementos-card .info-card .boton-producto:hover {
+  background-color: #2ebd92;
+  cursor: pointer;
+}
+
+.cont-card .elementos-card .info-card .boton-producto h4 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin: 3px 0px 0px 0px;
+}
+
+.cont-card .elementos-card .info-card .boton-producto .descargar-producto::before {
+  content: "DESCARGAR";
+}
+
 .cont-cajafondo-01 {
   width: 100%;
   height: auto;

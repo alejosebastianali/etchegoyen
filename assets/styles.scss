@@ -41,6 +41,10 @@ $colorFondo03:#95C11F;
 $colorFondo04:#EAF3D2;
 $colorFondo05:#8C8984;
 $colorFondo06:#B0B0AD;
+$colorFondo07:#676767;
+$colorFondo08:#E3E3E3;
+$colorFondo09:#34CD9E;
+$colorFondo10:#2ebd92;
 $colorTitulares:#000000;
 $colorBajada01:#B0B0AD;
 $colorBoton01: #4060C0;
@@ -50,6 +54,7 @@ $colorOverEtchegoyen:#074388;
 $colorTexoto01:#ffffff;
 $colorTexoto02:#eeecec;
 $colorTexoto03:#4D4D4D;
+$colorTexoto04:#676767;
 
 //Colores Footer
 $textoFooter:#ffffff;
@@ -80,6 +85,8 @@ $textoFooter:#ffffff;
 @import "..//assets/_carrusel_intro";
 @import "..//assets/_secciones";
 @import "..//assets/servicios";
+@import "..//assets/productos";
+@import "..//assets/_card_productos";
 @import "..//assets/_modulo_3_columnas";
 @import "..//assets/_slider_historia";
 @import "..//assets/_modulo_4_columnas";
