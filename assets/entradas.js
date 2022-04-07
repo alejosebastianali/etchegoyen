@@ -33,3 +33,20 @@ window.addEventListener('scroll', function()  {
   
         }
   });
+
+  //Fade Top
+  window.addEventListener('scroll', function()  {
+    let elements = document.getElementsByClassName('fadeInUp');
+    let screenSize = window.innerHeight;
+    
+          for(var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+  
+          if(element.getBoundingClientRect().top < screenSize) {
+            element.classList.add('animate__animated', 'animate__fadeInUp');
+          } else {
+            element.classList.remove('animate__animated', 'animate__fadeInUp');
+          }
+  
+        }
+  });

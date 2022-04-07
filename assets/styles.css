@@ -938,7 +938,7 @@ section#servicios .cont-data-ser {
 section#servicios .cont-data-ser .data-ser-a {
   width: 50%;
   height: auto;
-  background-color: #8C8984;
+  background-color: #4D4D4D;
   padding: 100px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -951,15 +951,29 @@ section#servicios .cont-data-ser .data-ser-a h1 {
   color: #eeecec;
   font-weight: normal;
   text-align: left;
-  margin: 0px;
+  margin: 0px 0px 30px 0px;
 }
 
 section#servicios .cont-data-ser .data-ser-a p {
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 25px;
   color: #ffffff;
   font-weight: normal;
+  text-align: left;
+  margin: 25px 0px;
+}
+
+section#servicios .cont-data-ser .data-ser-a ol {
+  list-style-type: square;
+}
+
+section#servicios .cont-data-ser .data-ser-a ol li {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: lighter;
   text-align: left;
   margin: 15px 0px;
 }
@@ -971,8 +985,47 @@ section#servicios .cont-data-ser .data-ser-b {
 }
 
 section#servicios .cont-data-ser .data-ser-b img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 120%;
+}
+
+section#servicios .cont-data-ser .boton-servicios {
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: auto;
+  background-color: #34CD9E;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#servicios .cont-data-ser .boton-servicios:hover {
+  background-color: #2ebd92;
+  cursor: pointer;
+}
+
+section#servicios .cont-data-ser .boton-servicios h4 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin: 3px 0px 0px 0px;
+  font-weight: bold;
+}
+
+section#servicios .cont-data-ser .boton-servicios .info-servicios::before {
+  content: "SOLICITAR ASESOR";
 }
 
 @media screen and (max-width: 1000px) {
@@ -1040,6 +1093,18 @@ section#servicios .cont-data-ser .data-ser-b img {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+  section#servicios .cont-data-ser .data-ser-b img {
+    width: 100%;
+    height: auto;
+  }
+  section#servicios .cont-data-ser .boton-servicios {
+    width: 100%;
+  }
+  section#servicios .cont-data-ser .boton-servicios h4 {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
   }
 }
 

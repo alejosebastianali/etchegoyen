@@ -129,7 +129,7 @@ section#servicios{
         .data-ser-a{
             width: 50%;
             height: auto;
-            background-color: $colorFondo05;
+            background-color: $colorFondo11;
             padding: 100px;
             box-sizing: border-box;
 
@@ -140,17 +140,31 @@ section#servicios{
                 color: $colorTexoto02;
                 font-weight: normal;
                 text-align: left;
-                margin:0px;
+                margin:0px 0px 30px 0px;
             }
 
             p{
                 font-family: $textosParrafo;
-                font-size: 16px;
-                line-height: 18px;
+                font-size: 18px;
+                line-height: 25px;
                 color: $colorTexoto01;
                 font-weight: normal;
                 text-align: left;
-                margin: 15px 0px;
+                margin: 25px 0px;
+            }
+
+            ol{
+                list-style-type: square;
+
+                li{
+                    font-family: $textosParrafo;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: $colorTexoto01;
+                    font-weight: lighter;
+                    text-align: left;
+                    margin: 15px 0px;
+                }
             }
 
         }
@@ -161,8 +175,40 @@ section#servicios{
             overflow: hidden;
 
             img{
-                width: 100%;
-                height: auto;
+                width: auto;
+                height: 120%;
+            }
+        }
+
+        .boton-servicios{
+            width: 200px;
+            height: 50px;
+            margin-top: 50px;
+            margin-left: 0px;
+            margin-right: auto;
+            background-color:$colorFondo09;
+            border-radius: 25px;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                background-color:$colorFondo10;
+                cursor: pointer;
+            }
+
+            h4{
+                font-family:$textosTitular ;
+                font-size: 16px;
+                color: #ffffff;
+                text-align: center;
+                margin: 3px 0px 0px 0px;
+                font-weight: bold;
+            }
+
+            .info-servicios::before{
+                content: "SOLICITAR ASESOR";
             }
         }
 
@@ -248,6 +294,22 @@ section#servicios{
                 width: 100%;
                 padding: 0px;
                 order: 2;
+
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+
+            .boton-servicios{
+                width: 100%;
+        
+                h4{
+                    font-family:$textosTitular ;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
 
             }
         }
