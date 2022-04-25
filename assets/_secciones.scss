@@ -41,7 +41,9 @@ section#certificados{
     }
 
     .cont-info-sec{
-        width: 100%;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
         padding: 50px 100px;
         box-sizing: border-box;
@@ -113,6 +115,16 @@ section#certificados{
 
 }
 
+@media screen and (max-width: 1100px){
+    section#certificados{
+
+        .cont-info-sec{
+            width: 700px;
+        }
+
+    }
+}
+
 @media screen and (max-width:768px){
 
     section#certificados{
@@ -179,6 +191,8 @@ section#certificados{
     }
 }
 
+
+
 section#empresa{
     
     .cont-img-sec{
@@ -221,8 +235,10 @@ section#empresa{
     
     }
 
-    .cont-info-sec{
-        width: 100%;
+    .cont-info-sec#nota01{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
 
             .info-sec{
@@ -304,6 +320,96 @@ section#empresa{
             }
     }
 
+    .fondo-complementario{
+        width: 100%;
+        height: auto;
+        background-color: #F3F2F2;
+    
+        .cont-info-sec#nota02{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+    
+                .info-sec{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 50px 100px;
+                    box-sizing: border-box;
+    
+                        h1{
+                            font-family: $bajadas;
+                            font-size: 40px;
+                            letter-spacing: 3px;
+                            color: $colorTexoto03;
+                            font-weight: normal;
+                            text-align: left;
+                            margin: 5px 0px;
+                        }
+    
+                        h2{
+                            font-family: $bajadas;
+                            font-size: 25px;
+                            letter-spacing: 3px;
+                            color: $colorTexoto03;
+                            font-weight: normal;
+                            text-align: left;
+                            margin: 5px 0px;
+                        }
+    
+                        p{
+                            font-family: $textosParrafo;
+                            font-size: 16px;
+                            color: $colorTexoto03;
+                            font-weight: normal;
+                            text-align: left;
+                            margin: 5px 0px;
+                        }
+                }
+    
+                .cont-data-sec{
+                    width: 100%;
+                    height: auto;
+                    padding: 50px 100px;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+    
+                        .data-sec-01{
+                            width: 50%;
+    
+                                img{
+                                    width: 100%;
+                                    height: auto;
+                                }
+                        }
+    
+                        .data-sec-02{
+                            width: 50%;
+                        }
+    
+                        .padding-izq{
+                            padding: 0px 0px 0px 20px;
+                        }
+    
+                        .padding-der{
+                            padding: 0px 20px 0px 0px;
+                        }
+    
+                        p{
+                            font-family:$textosParrafo;
+                            font-size: 16px;
+                            color:$colorTexoto03 ;
+                            font-weight: normal;
+                        }
+                }
+    
+        }
+    
+    }
+
+
     .shape-diagonal-01{
         clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 70%);
         shape-outside: polygon(0% 0%, 100% 100%, 0% 100%, 0% 0%);
@@ -319,6 +425,21 @@ section#empresa{
           object-fit: cover;
     }
 
+}
+
+@media screen and (max-width: 1100px){
+    section#empresa{
+
+        .cont-info-sec#nota01{
+            width: 700px;
+        }
+
+        .fondo-complementario{
+            .cont-info-sec#nota02{
+                width: 700px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:768px){
@@ -347,9 +468,9 @@ section#empresa{
             }
         }
 
-        .cont-info-sec{
+        .cont-info-sec#nota01{
+            width: 100%;
 
-    
                 .info-sec{
                     padding: 0px 30px;
                     box-sizing: border-box;
@@ -404,6 +525,68 @@ section#empresa{
                         }
                 }
         }
+
+        .fondo-complementario{
+            
+            .cont-info-sec#nota02{
+                width: 100%;
+    
+                    .info-sec{
+                        padding: 0px 30px;
+                        box-sizing: border-box;
+        
+                            h1{
+                                font-size: 30px;
+                                 margin: 15px 0px;
+                            }
+        
+                            h2{
+                                font-size: 18px;
+                                margin: 15px 0px;
+                            }
+        
+                            p{
+                                font-size: 16px;
+                                margin: 15px 0px;
+                            }
+                    }
+        
+                    .cont-data-sec{
+                        padding: 30px;
+                        flex-direction: column;
+        
+                            .data-sec-01{
+                                width: 100%;
+        
+                                    img{
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                            }
+        
+                            .data-sec-02{
+                                width: 100%;
+                            }
+        
+                            .padding-izq{
+                                padding: 0px 0px 0px 0px;
+                            }
+        
+                            .padding-der{
+                                padding: 0px 0px 0px 0px;
+                            }
+        
+                            p{
+                                font-family:$textosParrafo;
+                                font-size: 16px;
+                                color:$colorTexoto03 ;
+                                font-weight: normal;
+                                margin: 15px 0px;
+                            }
+                    }
+            }
+        }
+
 
         .shape-diagonal-01{
             padding: 30px;

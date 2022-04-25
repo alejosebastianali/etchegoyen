@@ -14,7 +14,6 @@
         font-size: 30px ;
         color: $colorTitulares;
         font-weight: normal;
-        text-transform: uppercase;
         margin: 0px;
         padding: 50px 0px 10px 0px;
         box-sizing: border-box;
@@ -34,11 +33,43 @@
             margin: 30px 1%;
         }
 
+        .cont-boton-info{
+            width: 100%;
+            height: 75px;
+            margin: 0px;
+            text-align: center;
+    
+            :hover{
+                background-color: $colorOverEtchegoyen;
+                cursor: pointer;
+            }
+            
+            .boton-info{
+                width: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                height: 55px;
+                border-radius: 27px;
+                padding: 10px;
+                box-sizing: border-box;
+                box-shadow: 0px 10px 15px rgba(0, 0, 0, .3);
+        
+                h3{
+                    font-family:$textosTitular ;
+                    font-size: 16px;
+                    font-weight: normal;
+                    margin: 7px 0px;
+                    color:$colorTexoto01 ;
+                }
+            }
+        
+        }
+
 }
 
 .caja-3-columnas{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-b;
@@ -55,52 +86,19 @@
         box-sizing: border-box;
         h1{
             font-family: $titulares;
-            font-size: 24px ;
+            font-size: 20px ;
             color: $colorTitulares;
             font-weight: 900;
             margin: 10px ;
         }
         p{
             font-family: $textosParrafo;
-            font-size: 16px ;
+            font-size: 14px ;
             color: $colorTitulares;
             font-weight: normal;
             margin: 10px ;
         }
     }
-
-    .cont-boton-info{
-        width: 100%;
-        height: 55px;
-        margin: 30px 0px;
-        text-align: center;
-
-        :hover{
-            background-color: $colorOverEtchegoyen;
-            cursor: pointer;
-        }
-        
-        .boton-info{
-            width: 120px;
-            margin-left: auto;
-            margin-right: auto;
-            height: 55px;
-            border-radius: 27px;
-            padding: 10px;
-            box-sizing: border-box;
-            box-shadow: 0px 10px 15px rgba(0, 0, 0, .3);
-    
-            h3{
-                font-family:$textosTitular ;
-                font-size: 16px;
-                font-weight: normal;
-                margin: 7px 0px;
-                color:$colorTexoto01 ;
-            }
-        }
-    
-    }
-
 
 }
 

@@ -1,0 +1,23 @@
+/*Distancia al top en la que aparecen las imagenes*/
+.lightbox-gallery {
+    overflow-x: hidden;
+}
+
+/*Distancia al top en la que aparecen las imagenes seleccionadas*/
+.lightbox{
+    top: 200px !important;
+    position: fixed !important;
+}
+
+.lightbox-gallery .photos {
+    padding-bottom: 20px;
+}
+
+.lightbox-gallery .item {
+    padding-bottom: 30px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
